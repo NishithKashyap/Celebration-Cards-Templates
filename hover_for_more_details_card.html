@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/hover_for_more_details_card.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <title>Hover for more details card</title>
+</head>
+<body style="background: url(img/bbt2.jpg);">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/sheldon.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Sheldon Lee Cooper</h3>
+                        <p>Sheldon Lee Cooper (Jim Parsons) is a theoretical physicist, possessing a BS, MS, PhD, Sc.D., and an IQ of 187. Born in East Texas, he was a child prodigy, and received his PhD at age 16 from Caltech. He is often cold, self-centered, condescending, and immature, but is not intentionally hurtful: his conduct is generally well-intentioned, but poorly judged. He has a softer side, as he does care about his friends, and loves his family and wife Amy Farrah Fowler, though he often insults them either about their intellect levels or different opinions. In seasons 1–9, he shares an apartment in Pasadena with friend and fellow physicist Dr. Leonard Hofstadter.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/leonard-hofstadter.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Leonard Leakey Hofstadter</h3>
+                        <p>Leonard Leakey Hofstadter (Johnny Galecki) is an experimental physicist with an IQ of 173. Originally from New Jersey, he received his PhD at age 24, spending at least some of his time at Princeton University. He shared an apartment in Pasadena with colleague and friend Dr. Sheldon Cooper until season 9. Unlike his equally geeky friends, Leonard is interested and adept in building relationships with other people. Compared to his friends, he is relatively successful with women.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/penny1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Penny Hofstadter</h3>
+                        <p>Penny (Kaley Cuoco), is Leonard and Sheldon's neighbor across the hallway. Originally from a small town outside Omaha, Nebraska, she was a waitress and occasional bartender at the local Cheesecake Factory until season seven, and is an aspiring actress. According to Sheldon, she is a "good-natured simpleton". She is kind-hearted, outgoing, and does display the most common sense out of all the original five main characters. She also appears to be the most street-smart. Her lack of educational qualifications (she dropped out of community college) are a constant source of disparaging comments from Sheldon.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/howard.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Howard Joel Wolowitz</h3>
+                        <p>Howard Joel Wolowitz, M.Eng. (Simon Helberg) is an aerospace engineer at Caltech's Department of Applied Physics, who often hangs out at Leonard and Sheldon's apartment. Unlike Sheldon, Leonard, and Raj, Howard does not have a doctorate, and often gets disparaged as a result, especially by Sheldon. He defends this by pointing out that he has a master's degree in Engineering from MIT and that the equipment he designs is launched into space, unlike the theoretical work of his friends. In the fifth-season finale, Howard goes to the International Space Station on Expedition 31.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/bernadette.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Bernadette Maryann Rostenkowski-Wolowitz</h3>
+                        <p>Bernadette Maryann Rostenkowski-Wolowitz, PhD (Melissa Rauch) is originally a waitress and co-worker of Penny's at The Cheesecake Factory, using her wages to pay for her graduate studies in microbiology. She is a smart, short-tempered, ruthless, and often competitive young woman who sometimes displays a sweet, nice, and friendly personality. Despite her squeaky voice, she has a darker side. A recurring joke in the series references Bernadette and her lab team handling dangerous or infectious specimens, leading to accidental byproducts or exposure to diseases, in some cases resulting in Bernadette being quarantined.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/rajesh.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Rajesh Ramayan Koothrappali</h3>
+                        <p>Rajesh Ramayan Koothrappali, PhD (Kunal Nayyar) is Howard Wolowitz's best friend and another genius of the group. His name is usually shortened to "Raj". He is from New Delhi, India, and works in the physics department at Caltech, where his area of expertise is astroparticle physics. He lives in an apartment in Pasadena. As with his friends, he is mutually involved with and obsessed with science fiction and comic books in general. He is also a fan of Harry Potter and Indian music, but appreciates the Indian lullabies his mother sang and the catchiness of Hindi phrases. Raj is a Hindu and believes in karma (reincarnation), but eats beef. He is very shy around women outside of his family, and during the first six seasons of the show, found himself unable to speak to women while in their presence unless he drank alcoholic beverages, or believed he had done so</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <a href="hover_over_card.html" style="position: absolute;bottom:0px;left:0;">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        BACK
+    </a> 
+    <a href="smoke_effect.html" style="position:absolute;bottom:0px;right: 0;">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        NEXT
+    </a>             
+    <script src="js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 30,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+</body>
+</html>
